@@ -1,0 +1,42 @@
+$color-main:          #29c1e7; //button
+$color-main--dark:    #15acd2; //button
+$color-text-blue:     #1589a6; //chat-app
+
+$color-bg-lightest:   #f3f6fa; //background
+$color-bg-dark:       #41424f; //background
+$color-bg-darkest:    #373843; //background
+
+$color-lightest:      #ebf0f5; // button
+$grey-light:          #dfdfe5; //#d6dfe9  text
+$grey-md:             #b4b8ca; //#b3b6c4  button
+$grey-dark:           #747699; //text
+$color-darkest:       #272a51; // text
+
+$color-error:         #f15f42;
+$color-success:       #b4d756;
+
+$light-blue:          #afe0ef; // list text
+$color-white:         #fff;
+$color-black:         #000;
+
+$box-shadow:          0 2px 5px rgba(0, 1, 5, 0.1);
+
+$gradient-blue:       linear-gradient(-101deg, #1bffff 0%, #2e3192 100%);
+$gradient-blue-transparent: linear-gradient(-101deg, rgba(27, 255, 255, 0.85) 0%, rgba(46, 49, 146, 0.85) 100%);
+
+
+$font-size:                   16px;
+//$font-size--h1:               3rem;
+//...
+//$font-size--small:            0.75em;
+//
+$font-family:                 'Roboto', sans-serif;
+
+//
+$border-radius:               3px;
+//
+//$screen-xs:                   0;
+$screen-sm:                   576px;
+$screen-md:                   768px;
+$screen-lg:                   992px;
+//$screen-xl:                   1200px;
