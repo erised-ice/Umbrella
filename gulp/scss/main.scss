@@ -1,34 +1,3 @@
 @import "variables";
 
 @import "base";
-/* Библиотеки: */
-@import "libs/owl.carousel";
-
-/* Элементы: */
-@import "blocks/button";
-@import "blocks/headings";
-@import "blocks/orderedLists";
-@import "blocks/cards";
-@import "blocks/badges";
-@import "blocks/links-list";
-@import "blocks/icon-list";
-@import "blocks/slider";
-@import "blocks/inputs";
-@import "blocks/tabs";
-
-/* Мини-блоки */
-@import "blocks/button-block";
-@import "blocks/form";
-
-/* Блоки страниц: */
-@import "blocks/common-block";
-@import "blocks/picture-bg-block";
-@import "blocks/three-card-block";
-@import "blocks/three-badge-block";
-@import "blocks/four-badge-block";
-@import "blocks/half-picture-block";
-
-/* Страницы: */
-@import "pages/all-channels";
-@import "pages/chat-app";
-@import "pages/homepage";

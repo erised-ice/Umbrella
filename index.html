@@ -7,6 +7,53 @@
   <link rel="stylesheet" href="static/css/main.css">
 </head>
 <body>
+<a href="picture.html">Картинка</a>
+  <h1>SVG</h1>
+  <p>Прямоугольник. <br/>
+    Ширина и высота - <span>width</span>, <span>height</span> (px - по умолчанию, %),<br/>
+    Скругление углов прямоугольника: <span>rx</span> - по горизонтали, <span>ry</span> — по вертикали. (ry = rx по умолчанию)<br/>
+    Координаты верхнего левого угла фигуры: <span>x</span> и <span>y</span>.</p>
+  <svg>
+    <rect width="50%" height="100" fill="orange" x="20" y="50" rx="50"ry="20"/>
+  </svg>
 
+  <p>Многоугольник.<br/>
+    Координаты вершин: <span>points</span>, каждая координата задаётся по <span>x</span> и <span>y</span> в px.</p>
+  <svg>
+    <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
+  </svg>
+  <p>Окружность<br/>
+    <span>r</span> — радиус окружности<br/>
+    Координаты центра: <span>cx</span> - по горизонтальной оси, <span>cy</span> — по вертикальной.<br/>
+    По умолчанию координаты центра окружности равны 0,0,<br/>
+    поэтому она находится в верхнем левом углу. (px - по умолчанию, %)
+  </p>
+  <svg>
+    <circle r="10" cx="50" cy="50%" fill="crimson"/>
+    <circle r="30" cx="105" cy="50%" fill="orangered"/>
+    <circle r="50" cx="200" cy="50%" fill="gold"/>
+  </svg>
+<p>Эллипс<br/>
+  Радиус по горизонтальной оси — <span>rx</span>, по вертикальной — <span>ry</span>.
+  Координаты центра: <span>cx</span> и <span>cy</span>.
+</p>
+<svg>
+  <ellipse rx="40%" ry="30" cx="50%" cy="80%" fill="yellowgreen"/>
+</svg>
+<p>Линии<br/>
+  Координаты начала линии: <span>x1</span> и <span>y1</span>,
+  Координаты конца: <span>x2</span> и <span>y2</span>. (px - по умолчанию, %).<br/>
+  <span>stroke</span>: цвет обводки,<br/>
+  <span>stroke-width</span>: толщина линии. (по умолч. 1px)
+  </p>
+
+  <svg width="220" height="120">
+    <line x1="20" y1="20" x2="200" y2="100" stroke="orange" stroke-width="10"/>
+  </svg>
+  <p>Ломаные линии<br/>
+    Координаты точек на линии: <span>points</span></p>
+  <svg width="200" height="200">
+    <polyline points="50,180 100,20 150,180 20,80 180,80 50,180 100,20" stroke="red" stroke-width="5" fill="none"/>
+  </svg>
 </body>
 </html>

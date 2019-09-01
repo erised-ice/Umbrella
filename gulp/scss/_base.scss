@@ -8,6 +8,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
+  font-size: 18px;
 }
 
 .img {
@@ -19,4 +20,16 @@ body {
   max-width: 1440px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+h1 {
+  color: red;
+}
+
+svg {
+  border: 1px solid #dddddd;
+}
+
+span {
+  color: red;
 }
